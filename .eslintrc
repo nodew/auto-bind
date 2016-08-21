@@ -1,0 +1,32 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel"
+  ],
+  "rules": {
+    "quotes": [
+      2,
+      "single"
+    ],
+    "strict": [
+      2,
+      "never"
+    ],
+    "no-var": 2,
+    "no-console": 0,
+    "prefer-spread": 2,
+    "comma-dangle": 2,
+    "semi": 0,
+    "no-param-reassign": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-sort-props": [
+      0
+    ]
+  }
+}
