@@ -5,7 +5,7 @@ this package is used to make ES6 classes's method auto binding to it's instance
 ## usage:
 
 ```JavaScript
-import { AutoBind, rcAutoBind } from 'autoBind'
+import { AutoBind, rcAutoBind } from 'auto-binding'
 // AutoBind is used for normal ES6 class
 // rcAutoBind is specific for react component using ES6 class
 
